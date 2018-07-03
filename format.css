@@ -23,7 +23,7 @@ img {
   color: red; }
 
 #main {
-  background-color: blue;
+  background-color: white;
   height: 100%; }
 
 .container {
@@ -36,9 +36,20 @@ html, body {
 #chickpeas {
   width: 100%; }
 
+.maintext {
+  font-family: futura;
+  font-size: 12px; }
+
+.maintext {
+  color: blue; }
+
 @media (min-width: 500px) {
   #main {
-    background-color: white; } }
+    background-color: #ffffe6;
+    min-width: 500px; }
+
+  .maintext {
+    color: black; } }
 div h2 {
   font-size: 24px;
   text-decoration: underline; }

@@ -32,9 +32,8 @@ img
     color: red;
 }
 #main {
-    background-color: blue;
+    background-color: white;
     height: 100%;
-
 }
 .container {
     height: 100%;
@@ -49,9 +48,24 @@ html, body {
     width: 100%;
 }
 
+%header {
+    font-family: futura;
+    font-size: 12px;
+}
+
+.maintext {
+    @extend %header;
+    color: blue;
+}
+
 @media (min-width: 500px) {
     #main {
-        background-color: white;
+        background-color: rgb(255,255,230);
+        min-width: 500px;
+    }
+
+    .maintext {
+        color: black;
     }
 }
 
@@ -64,3 +78,4 @@ div {
         font-weight: bold;
     }
 }
+
