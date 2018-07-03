@@ -1,0 +1,66 @@
+$color: red;
+
+
+h1
+{
+    color: #57a9f2;
+    font-family: "Futura";
+    margin-left: 10%;
+}
+p
+{
+    font-family: "Helvetica";
+}
+ul
+{
+    font-family: "Futura";
+}
+img
+{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Marley
+{
+    font-family: "Helvetica";
+    font-size: 24px;
+}
+
+.btn {
+    color: red;
+}
+#main {
+    background-color: blue;
+    height: 100%;
+
+}
+.container {
+    height: 100%;
+    background-color: $color;
+}
+
+html, body {
+    height: 100%;
+}
+
+#chickpeas {
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    #main {
+        background-color: white;
+    }
+}
+
+div {
+    h2{
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    ol {
+        font-weight: bold;
+    }
+}
